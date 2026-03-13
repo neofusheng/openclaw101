@@ -3968,6 +3968,36 @@ export const resources: Resource[] = [
     category: 'getting-started',
     tags: ['ClawHub', 'skills', 'WhatsApp', 'Mac'],
   },
+  {
+    title: 'sanwan.ai — AI 龙虾三万自主运营网站实录',
+    desc: '完全由 OpenClaw AI Agent 自主建站、写作、推广的网站，展示真实的 Agent 运营案例，每日更新日记，附完整技能清单。',
+    url: 'https://sanwan.ai',
+    source: 'sanwan.ai',
+    lang: 'zh',
+    category: 'deep-dive',
+    featured: true,
+    tags: ['实战案例', '自动化运营', '心跳机制', 'SOUL.md', '多Agent'],
+  },
+  {
+    title: 'SOUL.md 设计指南：如何给 AI 一个真正有个性的灵魂',
+    desc: '详解 OpenClaw SOUL.md 配置方法，含3种真实模板（运营/客服/研究类），常见错误与检验标准。',
+    url: 'https://juejin.cn/post/7616308247709974547',
+    source: '掘金',
+    lang: 'zh',
+    category: 'skill-dev',
+    featured: false,
+    tags: ['SOUL.md', 'Agent人格', '配置教程'],
+  },
+  {
+    title: 'OpenClaw 心跳机制实战：让 AI Agent 24 小时不停自主运行',
+    desc: '从 HEARTBEAT.md 配置到三问反思机制，手把手教你让 Agent 全天候自主执行任务，含可运行配置示例。',
+    url: 'https://juejin.cn/post/7616209617266835498',
+    source: '掘金',
+    lang: 'zh',
+    category: 'skill-dev',
+    featured: false,
+    tags: ['心跳机制', 'HEARTBEAT.md', '自动化', '定时任务'],
+  },
 ];
 
 export function getResourcesByCategory(cat: ResourceCategory): Resource[] {
